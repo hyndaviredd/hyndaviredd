@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+  int n, sum = 0;
+  
+  // Ask user to enter a number
+  printf("Enter a number: ");
+  scanf("%d", &n);
+  
+  // Loop through the numbers from 1 to n and add them to the sum
+  for (int i = 1; i <= n; i++) {
+    sum += i;
+  }
+  
+  // Print the sum
+  printf("The sum of first %d numbers is %d", n, sum);
+  
+  return 0;
+}
